@@ -1,12 +1,12 @@
-package ASS2;
+package STASS2;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-public class day1 {
+public class WebdriverTesting {
 
 	public static void main(String[] args) {
 	
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\imkar\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\imkar\\Downloads\\Compressed\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.amazon.com/");
 		
